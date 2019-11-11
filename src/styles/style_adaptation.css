@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+
+	div *{
+		border: solid red 1px;
+	}
+
+	.menu .logo{
+		flex: 15 1 auto;
+	}
+	.menu .lin_7{
+		margin-left: -10px;
+	}
+
+
+	.row_2_2{
+		flex: 3 1 auto;
+		display: flex;
+		font-size: 50px;
+		justify-content: space-between;
+		font-family: 'Vidaloka', serif;
+	}
+
+	.row_2_2 div{
+		padding-bottom: 2px;
+		border-bottom: solid white 1px;
+	}
+
+.menu .lin_1,.menu .lin_2, .menu .lin_3,
+.menu .lin_4,.menu .lin_5,.menu .lin_6,.menu .lin_7{
+	flex: 1 1 auto;
+	font-size: 14px;
+}
+
+.menu .lin_1,.menu .lin_2, .menu .lin_3,
+.menu .lin_4,.menu .lin_5{
+	border: solid red 1px;
+
+
+}
+
+}
